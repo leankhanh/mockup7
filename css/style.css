@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+:root {
+    --primary-pink: hsl(322, 100%, 66%);
+    --neutral-very-pale-cyan: hsl(193, 100%, 96%);
+    --neutral-very-dark-cyan: hsl(192, 100%, 9%);
+    --neutral-grayish-blue: hsl(208, 11%, 55%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+.container {
+    width: 50%;
+    background-color: white;
+}
+
+.header {
+    background-image: url('../images/bg-hero-mobile.svg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-color: var(--neutral-very-pale-cyan);
+    padding-bottom: 5em;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3em 2em 10em 2em;
+}
+
+.navbar img {
+    width: 200px;
+}
+
+.navbar a {
+    text-decoration: none;
+    background-color: white;
+    padding: 0.5em 2em;
+    border-radius: 50px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.left-info h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.8em;
+    margin: 0 2em;
+}
+
+.left-info p {
+    font-size: 2em;
+    line-height: 46px;
+    margin: 2em 1.6em;
+}
+
+.left-info a {
+    text-decoration: none;
+    background-color: var(--primary-pink);
+    color: var(--neutral-very-pale-cyan);
+    padding: 1em 5em;
+    font-size: 1.2em;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.intro-page img {
+    width: 80%;
+    margin-top: 8em;
+}
+
+.card-container {
+    padding: 5em 0;
+}
+
+.card1, card2, card3 {
+    padding: 4em 0;
+    margin: 0 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+}
+
+.card1 img, .card2 img, .card3 img {
+    width: 60%;
+}
+
+.grow h2, .conversation h2, .users h2 {
+    font-size: 2.4em;
+    margin: 2em 0 1em 0;
+}
+
+.grow p, .conversation p, .users p {
+    font-size: 1.6em;
+    color: var(--neutral-grayish-blue);
+    margin: 0 3.5em;
+    line-height: 40px;
+}
+
